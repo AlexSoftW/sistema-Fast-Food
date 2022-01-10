@@ -1,0 +1,81 @@
+body {
+  background: linear-gradient(-45deg, #0378a6, #1ba0f2);
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+#mostrar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 30px;
+  border-radius: 30px;
+  padding: 10px;
+  background: rgb(59, 59, 59);
+  color: white;
+}
+
+/* Itens Comida */
+
+.radio-group{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.radio-group label{
+  font-size: 20px;
+}
+
+.radio-group input{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: auto;
+  height: 10px;
+  padding: 8px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+input[type=radio]{
+  width: 20px;
+  height: 20px;
+}
+
+.campo input{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+
+.radio-group button {
+  cursor: pointer;
+  width: 50%;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.radio-group button:hover {
+  letter-spacing: 3px;
+  background: #0184b8d0;
+}
+
